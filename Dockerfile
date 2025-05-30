@@ -11,4 +11,4 @@ COPY target/algoritmos-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
 
 # Comando para ejecutar el JAR, usando el puerto de Render si está definido
-CMD ["sh", "-c", "java -jar app.jar --server.port=${PORT:-8080}"]
+CMD ["sh", "-c", "java -jar app.jar --server.port=${PORT:-8081}"]
